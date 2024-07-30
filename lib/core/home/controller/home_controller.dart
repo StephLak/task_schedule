@@ -156,4 +156,10 @@ class HomeController extends GetxController {
     getDates();
     super.onInit();
   }
+
+  @override
+  void dispose() {
+    searchController.dispose();
+    super.dispose();
+  }
 }
