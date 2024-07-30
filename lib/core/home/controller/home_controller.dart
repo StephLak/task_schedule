@@ -66,7 +66,7 @@ class HomeController extends GetxController {
         children: [
           Padding(
             padding: EdgeInsets.symmetric(
-              horizontal: queryWidth() * 0.05,
+              horizontal: queryWidth() * 0.1,
               vertical: 20,
             ),
             child: Row(

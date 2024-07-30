@@ -28,7 +28,7 @@ class WeekWidget extends StatelessWidget {
                 DateUtils.isSameDay(controller.selectedDate.value, date);
             return Center(
               child: GestureDetector(
-                onTap: () => controller.selectedDate(date),
+                onTap: () => controller.selectDate(date),
                 child: Container(
                   height: 70,
                   width: 50,
